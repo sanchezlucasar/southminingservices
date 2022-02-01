@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 87px;
+    right: 40px;
+    background-color: rgb(35, 31, 32);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+h2 {
+    background-color: rgb(35, 31, 32);
+    ;
+    color: #e3a712;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: rgb(35, 31, 32);
+    ;
+    background-color: #e3a712;
+}
+
+.my-float {
+    margin-top: 16px;
+}
